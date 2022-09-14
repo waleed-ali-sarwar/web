@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-container">
+                <div class="logo-brand">
+
+                    <img id="img1" src="assets/logo.png" alt="university-logo">
+                    <img id="img2" src="assets/logo_govt_of_pakistan.png" alt="university-logo">
+
+                    <div class="logo-label">
+                        <h2>
+                            virtual university of pakistan
+                        </h2>
+                        <h3>
+                            federal government university
+                        </h3>
+                    </div>
+                </div>
+                <div class="responsive-ui-mobile-menu">
+                    <!-- menu-button -->
+                    <div class="res-menu-item">
+                        <img id="menu" src="assets/menu.png" onclick="openNav()" />
+                    </div>
+                    <!-- menu-button -->
+                </div>
+            </div>
+        </div>
+        <div class="header-nav-content">
+            <nav>
+                <!-- desktop-navigation -->
+                <div class="responsive-ui">
+
+                    <div class="nav-dropdown">
+                        <button class="dropbtn">About</button>
+                        <div class="navlink animate__animated animate__fadeInLeft">
+                            <a href="#">introducation</a>
+                            <a href="#">chancellor's message</a>
+                            <a href="#">vision and mission</a>
+                            <a href="#">organizational structure</a>
+                            <a href="#">board of governors</a>
+                            <a href="#">mode of education</a>
+                            <a href="#">adjunction</a>
+                            <a href="#">milestones</a>
+                            <a href="#">mOU's and collaboration</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-dropdown">
+                        <button class="dropbtn">Admissions</button>
+                        <div class="navlink animate__animated animate__fadeInLeft">
+                            <a href="#">is vUP E-learning suitable for me?</a>
+                            <a href="#">admission schedule</a>
+                            <a href="#">fee structure</a>
+                            <a href="#">fee calculator</a>
+                            <a href="#">prospectus</a>
+                            <a href="#">recent advertisments</a>
+                            <a href="#">how to apply</a>
+                            <a href="#">Apply online</a>
+                            <a href="#">admisson through course exemption</a>
+                            <a href="#">admisson through entry option</a>
+                            <a href="#">admisson foreign national</a>
+                            <a href="#">admitted candidate list</a>
+                            <a href="#">vU grading scheme</a>
+                            <a href="#">course catalogue</a>
+                            <a href="#">study scheme</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-dropdown">
+                        <button class="dropbtn">facilties</button>
+                        <div class="navlink animate__animated animate__fadeInLeft">
+                            <a href="#">faculty of arts</a>
+                            <a href="#">faculty of cS & iT</a>
+                            <a href="#">faculty of education</a>
+                            <a href="#">faculty of management</a>
+                            <a href="#">faculty of science & technology</a>
+                            <a href="#">certificate courses</a>
+                            <a href="#">zero semester</a>
+                            <a href="#">specialzation certificate</a>
+                            <a href="#">professional courses</a>
+                            <a href="#">all academic programs</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-dropdown">
+                        <button class="dropbtn">students</button>
+                        <div class="navlink animate__animated animate__fadeInLeft">
+                            <a href="#">how to study at vU</a>
+                            <a href="#">academic calender</a>
+                            <a href="#">lecture schedule</a>
+                            <a href="#">lMS logIn</a>
+                            <a href="#">student handbook</a>
+                            <a href="#">VU email</a>
+                            <a href="#">bookshop</a>
+                            <a href="#">life at vU</a>
+                            <a href="#">scholarships</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-dropdown">
+                        <button class="dropbtn">Our Campuses</button>
+                        <div class="navlink animate__animated animate__fadeInLeft">
+                            <a href="#">virtual campuses</a>
+                            <a href="#">become a VU campus</a>
+                            <a href="#">pVC rules</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-dropdown">
+                        <button class="dropbtn">opportunities</button>
+                        <div class="navlink animate__animated animate__fadeInLeft">
+                            <a href="#">jobs</a>
+                            <a href="#">jobs for course development</a>
+                            <a href="#">tenders</a>
+                            <a href="#">vendor registration</a>
+                            <a href="#">exam superintendent registration</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-dropdown">
+                        <button class="dropbtn">Quick links</button>
+                        <div class="navlink animate__animated animate__fadeInLeft">
+                            <a href="#">citizen portal / complaint handling</a>
+                            <a href="#">office of research, innovation and communication</a>
+                            <a href="#">digiSkills</a>
+                            <a href="#">vSpace VU</a>
+                            <a href="#">QEU</a>
+                            <a href="#">photo gallery</a>
+                            <a href="#">photo student startup business center</a>
+                            <a href="#">alumni</a>
+                            <a href="#">VU bytes</a>
+                            <a href="#">news letters</a>
+                            <a href="#">open courseware</a>
+                            <a href="#">student handbook</a>
+                            <a href="#">more links</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- desktop-navigation -->
+
+                <!-- mobile-navigation -->
+                <div class="responsive-ui-mobile">
+                    <!-- responsive-ui-mobile navigation -->
+                    <div id="res_navbar" class="res-navbar">
+                        <a herf="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="res-header-container">
+
+                            <div class="res-navlink">
+                                <div class="res-nav-title">
+                                    <h2>
+                                        about us
+                                    </h2>
+                                </div>
+                                <div class="links">
+                                    <a href="#">introducation</a>
+                                    <a href="#">chancellor's message</a>
+                                    <a href="#">vision and mission</a>
+                                    <a href="#">organizational structure</a>
+                                    <a href="#">board of governors</a>
+                                    <a href="#">mode of education</a>
+                                    <a href="#">adjunction</a>
+                                    <a href="#">milestones</a>
+                                    <a href="#">mOU's and collaboration</a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="res-navlink">
+                                <div class="res-nav-title">
+                                    <h2>
+                                        admissions
+                                    </h2>
+                                </div>
+                                <div class="links">
+                                    <a href="#">is vUP E-learning suitable for me?</a>
+                                    <a href="#">admission schedule</a>
+                                    <a href="#">fee structure</a>
+                                    <a href="#">fee calculator</a>
+                                    <a href="#">prospectus</a>
+                                    <a href="#">recent advertisments</a>
+                                    <a href="#">how to apply</a>
+                                    <a href="#">Apply online</a>
+                                    <a href="#">admisson through course exemption</a>
+                                    <a href="#">admisson through entry option</a>
+                                    <a href="#">admisson foreign national</a>
+                                    <a href="#">admitted candidate list</a>
+                                    <a href="#">vU grading scheme</a>
+                                    <a href="#">course catalogue</a>
+                                    <a href="#">study scheme</a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="res-navlink">
+                                <div class="res-nav-title">
+                                    <h2>
+                                        faculties
+                                    </h2>
+                                </div>
+                                <div class="links">
+                                    <a href="#">faculty of arts</a>
+                                    <a href="#">faculty of cS & iT</a>
+                                    <a href="#">faculty of education</a>
+                                    <a href="#">faculty of management</a>
+                                    <a href="#">faculty of science & technology</a>
+                                    <a href="#">certificate courses</a>
+                                    <a href="#">zero semester</a>
+                                    <a href="#">specialzation certificate</a>
+                                    <a href="#">professional courses</a>
+                                    <a href="#">all academic programs</a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="res-navlink">
+                                <div class="res-nav-title">
+                                    <h2>
+                                        students
+                                    </h2>
+                                </div>
+                                <div class="links">
+                                    <a href="#">how to study at vU</a>
+                                    <a href="#">academic calender</a>
+                                    <a href="#">lecture schedule</a>
+                                    <a href="#">lMS logIn</a>
+                                    <a href="#">student handbook</a>
+                                    <a href="#">VU email</a>
+                                    <a href="#">bookshop</a>
+                                    <a href="#">life at vU</a>
+                                    <a href="#">scholarships</a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="res-navlink">
+                                <div class="res-nav-title">
+                                    <h2>
+                                        our campuses
+                                    </h2>
+                                </div>
+                                <div class="links">
+                                    <a href="#">virtual campuses</a>
+                                    <a href="#">become a VU campus</a>
+                                    <a href="#">pVC rules</a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="res-navlink">
+                                <div class="res-nav-title">
+                                    <h2>
+                                        opportunities
+                                    </h2>
+                                </div>
+                                <div class="links">
+                                    <a href="#">jobs</a>
+                                    <a href="#">jobs for course development</a>
+                                    <a href="#">tenders</a>
+                                    <a href="#">vendor registration</a>
+                                    <a href="#">exam superintendent registration</a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="res-navlink">
+                                <div class="res-nav-title">
+                                    <h2>
+                                        quick links
+                                    </h2>
+                                </div>
+                                <div class="links">
+                                    <a href="#">citizen portal / complaint handling</a>
+                                    <a href="#">office of research, innovation and communication</a>
+                                    <a href="#">digiSkills</a>
+                                    <a href="#">vSpace VU</a>
+                                    <a href="#">QEU</a>
+                                    <a href="#">photo gallery</a>
+                                    <a href="#">photo student startup business center</a>
+                                    <a href="#">alumni</a>
+                                    <a href="#">VU bytes</a>
+                                    <a href="#">news letters</a>
+                                    <a href="#">open courseware</a>
+                                    <a href="#">student handbook</a>
+                                    <a href="#">more links</a>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+
+
+                        </div>
+                    </div>
+                    <!-- responsive-ui-mobile navigation -->
+                </div>
+                <!-- mobile-navigation -->
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>
+                Welcome to virtual university
+            </h2>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
