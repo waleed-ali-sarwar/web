@@ -159,6 +159,11 @@ main{
 section{
     min-width: 800px;
 }
+.welcome{
+    width: 100%;
+    height: 40vh;
+    background-color: #2258a2;
+}
 .swiper {
     width: 100%;
     height: 750px;
