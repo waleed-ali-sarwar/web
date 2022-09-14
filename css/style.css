@@ -179,9 +179,7 @@ margin: auto;
     .responsive-ui{
         display: none;
     }
-    .logo-brand .img1{
-        height: 25px;
-    }
+    
     .res-header-container {
         position: relative;
         color: #fff;
@@ -284,7 +282,9 @@ margin: auto;
         padding-left: 10px;
         padding-right: 10px;
     }
-    
+    #img1{
+        height: 45px;
+    }
     #img2{
         display: none;
     }
