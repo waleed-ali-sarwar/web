@@ -37,4 +37,4 @@ Contributions are welcome! Follow these steps:
 This project is for educational purposes only and does not intend to violate any copyrights of the **Virtual University of Pakistan**.
 
 ## 📧 Contact
-For any queries or collaborations, reach out at **your-email@example.com**.
+For any queries or collaborations, reach out at **waleed.alisarwar336@outlook.com**.
