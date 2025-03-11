@@ -19,7 +19,7 @@ This project is a **static UI clone** of the **Virtual University of Pakistan** 
 ### Steps:
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/vu-clone.git
+   git clone https://github.com/waleed-ali-sarwar/web.git
    cd vu-clone
    ```
 2. **Open `index.html` in a browser**
